@@ -2,6 +2,12 @@
 
 A learning project demonstrating real-time data streaming with Kafka, ksqlDB, and Server-Sent Events (SSE).
 
+## Screenshot
+
+The dashboard displays real-time order metrics with live updates. Toggle between polling and SSE modes to compare update mechanisms.
+
+![Order Analytics Dashboard](./screenshot.png)
+
 ## Architecture
 
 ```
