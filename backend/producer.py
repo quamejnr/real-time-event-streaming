@@ -20,9 +20,10 @@ def main():
             p.produce("order_created", value=json.dumps(data).encode("utf-8"))
             print(f"{data['order_id']} sent")
             p.flush()
-            time.sleep(1)
         except Exception as e:
             print(f"Error: {e}")
+
+        finally:
             time.sleep(1)
 
 if __name__ == "__main__":
