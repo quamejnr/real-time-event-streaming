@@ -65,13 +65,10 @@ The dashboard displays real-time order metrics with live updates. Toggle between
 ### Running the Project
 
 1. **Clone and navigate to the project**
-   ```bash
-   cd 2025-11-28-ksqldb
-   ```
 
 2. **Start all services**
    ```bash
-   docker-compose up --build
+   docker-compose up
    ```
 
    This starts:
